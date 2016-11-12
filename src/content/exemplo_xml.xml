@@ -1,0 +1,31 @@
+<!-- Tag de imagem -->
+<Imagem>
+	<!-- Nome do arquivo -->
+	<Nome>
+		Lena.jpg
+	</Nome>
+	<!-- Quantidade de camadas -->	
+	<Camadas>
+		3
+	</Camadas>
+	<!-- Quantidade de linhas -->
+	<Linhas>
+		440
+	</Linhas>
+	<!-- Quantidade de colunas -->
+	<Colunas>
+		437
+	</Colunas>
+	<!-- Matriz -->
+	<Matriz>
+		<!-- Formato da "matriz" -->
+		x,y[c1,c2,c3,...,cn]
+		<!-- 
+			x = linha
+			y = coluna
+			[ = abre conjunto de valores
+			cn = valor de cada camada
+			] = fecha conjunto de valores
+		-->
+	</Matriz>
+</Imagem>
