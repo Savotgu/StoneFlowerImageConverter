@@ -33,7 +33,7 @@ public class ParaDados {
             }
         }
         
-        final String valores = matriz;
+        final String pixels = matriz;
         
         try 
         {
@@ -68,8 +68,8 @@ public class ParaDados {
                 }
 
                 @Override
-                public String valores() {
-                    return  valores;
+                public String pixels() {
+                    return  pixels;
                 }
 
                 @Override

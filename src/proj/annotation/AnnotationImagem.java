@@ -13,5 +13,5 @@ public @interface AnnotationImagem {
     int camadas() default 0;
     int linhas() default 0;
     int colunas() default 0;
-    String valores() default "";
+    String pixels() default "";
 }
