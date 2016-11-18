@@ -2,8 +2,12 @@
 <Imagem>
 	<!-- Nome do arquivo -->
 	<Nome>
-		Lena.jpg
+		Lena
 	</Nome>
+        <!-- Nome do arquivo -->
+	<Extensao>
+		jpg
+	</Extensao>
 	<!-- Quantidade de camadas -->	
 	<Camadas>
 		3
