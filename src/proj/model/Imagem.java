@@ -5,6 +5,7 @@ import org.opencv.core.Mat;
 import org.opencv.imgcodecs.Imgcodecs; 
 import proj.annotation.AnnotationImagem;
 
+@AnnotationImagem(camadas = 0,extensao = "", colunas = 0, linhas = 0, nome = "", pixels = "")
 public class Imagem {
     
     public Imagem(String caminhoParaImagem)
@@ -17,7 +18,6 @@ public class Imagem {
         this.imagem = imagem;
     }
     
-    @AnnotationImagem
     private Mat imagem;
     
     public Mat getImagem()
